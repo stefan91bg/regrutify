@@ -1,0 +1,48 @@
+.cards-wrapper {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  margin-top: 50px;
+}
+.home-page {
+  .search-div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    h2 {
+      letter-spacing: 2px;
+      color: white;
+      background-color: rgb(79, 124, 126);
+      border: 5px solid rgb(114, 113, 113);
+      border-radius: 5px;
+      padding: 10px 10px;
+      margin-top: 50px;
+      margin-left: 100px;
+      text-align: center;
+    }
+    input {
+      margin-top: 50px;
+      margin-right: 100px;
+      border-radius: 15px;
+      border: 5px solid rgb(119, 118, 118);
+      padding: 10px 5px;
+      font-size: 20px;
+    }
+  }
+}
+.navigation-buttons {
+ 
+  
+  
+  p {
+    padding: 10px;
+    color: white;
+    border: 5px solid rgb(114, 113, 113);
+    margin-left: 5px;
+    background-color: rgb(64, 228, 64);
+    border-radius: 5px;
+  }
+  p:hover {
+    color: rgb(158, 24, 75);
+  }
+}

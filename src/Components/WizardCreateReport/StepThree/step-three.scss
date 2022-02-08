@@ -1,0 +1,31 @@
+.selectedcandidate-company {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 27%;
+
+    p {
+        color: gray;
+    }
+    h4 {
+        margin-bottom: 10px;
+    }
+}
+.set-informations {
+    font-size: 25px;
+    margin: 30px 30px;
+    width: 73%;
+}
+.wrapper {
+    display: flex;
+}
+label {
+    vertical-align: top;
+}
+.label-input {
+    margin: 15px;
+}
+textarea {
+    padding: 10px;
+}

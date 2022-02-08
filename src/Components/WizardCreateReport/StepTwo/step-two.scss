@@ -1,0 +1,41 @@
+.allCompanies {
+    width: 80%;
+    font-size: 25px;
+    margin: 30px 30px;
+ 
+    .singleCompany {
+        padding: 5px;
+        font-weight: 700px;
+        margin:2px 0px;
+        background-color: rgb(184, 178, 178);
+        border-radius: 10px;
+    }
+    .active {
+        background-color: rgb(187, 197, 223);
+        border: 3px solid green
+    }
+}
+.searchDiv {
+    margin-left: 90px;
+    .search {
+      color: grey;
+      font-weight: 550;
+      background-color: rgba(79, 124, 126, 0.5);
+    }
+    .search:hover {
+      filter: brightness(120%);
+    }
+  }
+  .selected-candidate {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      width: 20%;
+      p {
+          color:gray
+      }
+
+  }
+  .selectcompany {
+      display: flex;
+  }

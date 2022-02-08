@@ -1,0 +1,67 @@
+.modal {
+  position: fixed;
+  right: 0;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.modal .modal-content {
+  position: absolute;
+  background-color: white;
+  width: 700px;
+  height: 500px;
+}
+
+.modal .modal-content h2 {
+  margin-left: 30px;
+  margin-right: 30px;
+  padding-bottom: 15px;
+  border-bottom: 2px solid gray;
+}
+
+.modal .modal-content p {
+  color: gray;
+}
+
+.modal .close-modal {
+  position: absolute;
+  top: 0;
+  right: 0;
+  margin: 10px;
+}
+
+.info-note {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  height: 50vh;
+}
+
+.info-note .info {
+  width: 50%;
+}
+
+.info-note .note {
+  width: 50%;
+  margin-right: 20px;
+}
+
+.info-note .note h4 {
+  font-weight: 100;
+}
+/*# sourceMappingURL=modal.css.map */

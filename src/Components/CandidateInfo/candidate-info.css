@@ -1,0 +1,46 @@
+.candidate-info {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.about {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 50px 0px;
+}
+
+.about img {
+  width: 25%;
+  -webkit-filter: grayscale(5);
+          filter: grayscale(5);
+  margin-right: 150px;
+}
+
+.about h1 {
+  font-size: 60px;
+  letter-spacing: 3px;
+  margin-bottom: 30px;
+}
+
+.about p {
+  font-size: 40px;
+  margin: 50px 0px;
+}
+
+.back-to-homepage-button {
+  border: none;
+  border-radius: 12px;
+  height: 50px;
+  width: 200px;
+  font-size: large;
+  cursor: pointer;
+  letter-spacing: 5px;
+  margin-top: 40px;
+}
+/*# sourceMappingURL=candidate-info.css.map */

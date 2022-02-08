@@ -1,0 +1,56 @@
+header {
+  margin-bottom: 100px !important;
+}
+
+.buttons {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  margin-right: 100px;
+  margin-top: 80px;
+}
+
+.buttons button {
+  border: none;
+  height: 50px;
+  width: 200px;
+  font-size: large;
+  cursor: pointer;
+  letter-spacing: 5px;
+  margin-top: 40px;
+}
+
+.buttons button:hover {
+  background-color: aquamarine;
+}
+
+.next {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  margin-right: 100px;
+  margin-top: 80px;
+}
+
+.next button {
+  border: none;
+  height: 50px;
+  width: 200px;
+  font-size: large;
+  cursor: pointer;
+  letter-spacing: 5px;
+  margin-top: 40px;
+}
+/*# sourceMappingURL=create-report-page.css.map */

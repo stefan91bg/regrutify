@@ -1,0 +1,51 @@
+.report {
+  width: 70%;
+  margin: 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.report div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 100%;
+  border: 1px solid black;
+  padding: 40px;
+}
+
+.all-reports {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-top: 40px;
+}
+
+.search {
+  margin-right: 15px;
+  height: 80px;
+  width: 400px;
+  border-radius: 15px;
+  border: 1px solid grey;
+  padding: 5px 20px;
+  font-size: 40px;
+}
+/*# sourceMappingURL=admin-page.css.map */

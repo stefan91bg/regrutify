@@ -1,0 +1,97 @@
+.report {
+  width: 70%;
+  margin: 20px;
+  display: flex;
+  align-items: center;
+  div {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    border: 1px solid black;
+    padding: 40px;
+    height: 130px;
+    text-align: center;
+    p {
+      margin-top: 10px;
+    }
+  }
+}
+
+.underHeader {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  margin-top: 20px;
+  flex-direction: row-reverse;
+
+  .buttons {
+    button {
+      align-items: center;
+      background-color: rgb(79, 124, 126);
+      height: 40px;
+      color: white;
+      border-radius: 15px;
+      font-weight: 700;
+      padding: 0 10px;
+      letter-spacing: 2px;
+      border: none;
+      cursor: pointer;
+      margin-left: 10px;
+    }
+    button:hover {
+      filter: brightness(120%);
+    }
+  }
+  .searchDiv {
+    .search {
+      color: grey;
+      font-weight: 550;
+      background-color: rgba(79, 124, 126, 0.5);
+    }
+    .search:hover {
+      filter: brightness(120%);
+    }
+  }
+}
+
+.all-reports {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 40px;
+}
+
+.search {
+  margin-right: 15px;
+  height: 40px;
+  width: 200px;
+  border-radius: 15px;
+  border: 1px solid grey;
+  padding: 5px 20px;
+  font-size: 20px;
+}
+.action-btn {
+  display: flex;
+  flex-direction: inherit !important;
+  flex-wrap: wrap;
+  width: 30px;
+  justify-content: space-around;
+  button {
+    width: 40px;
+    height: 40px;
+    border-radius: 20px;
+    background-color: rgb(79, 124, 126);
+    color: white;
+    font-size: 20px;
+    border: none;
+    cursor: pointer;
+  }
+  button:hover {
+    filter: brightness(110%);
+  }
+}
+.action-btn button:first-child {
+  font-family: "Times New Roman", Times, serif;
+  font-size: 30px;
+}
